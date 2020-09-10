@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: #FAFAFA;
+}
+header .rongila{
+    padding: 15px;
+    color: #FE760E;
+    float:left;
+    width:40%;
+}
+header .rongila span{
+    font-size:30px;
+    font-weight: bold;
+    }
+header ul{
+    float:left;
+    width:60%;
+}
+header ul li {
+    display: inline-block;
+    padding: 15px;
+}
+header ul li a{
+    text-decoration: none;
+    color: #B5B5B5;
+    font-size: 12px
+}
+header ul li a:hover,header ul li a:active{
+    color:#FE760E; 
+}
+
+
+
+
+
+
+
+/*My FrameWork*/
+.clearfix{
+    clear:both;
+}
+.container{
+    width:1200px;
+    margin: auto
+}
